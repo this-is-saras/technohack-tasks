@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    max-height: 100vh;
+    max-width: 100vh;
+    background-image: url("BG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+   height: 420px;
+   width: 750px;
+   margin-top: 8rem;
+   margin-left: 18rem;
+   background-color: rgb(253, 253, 251);
+   display: flex;
+}
+
+.container .welcome-page{
+    padding: 10px 0px;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    color: black;
+    font-style: italic;
+}
+
+.container .login-page{
+    background-color: pink;
+    color: black;
+    height: 100%;
+    width: 50%;
+    padding-left: 30px;
+    box-sizing: border-box;
+    text-align: left;
+}
+i{
+    height: 150px;
+    width: 150px;
+    padding-top: 30px;
+    border-radius: 50%;
+    font-size:90px;
+    margin-top: -70px;
+    margin-left: 30%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(3, 77, 251,0.6);
+}
+.welcome-page p{
+    color: blue;
+    font-style: normal;
+    padding: 25px 15px;
+}
+
+h1{
+    padding: 0 0 10px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.login-page p{
+    font-weight: bold;
+}
+
+.login-page input{
+    width: 80%;
+    margin-bottom: 20px;
+
+}
+.login-page input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+ }
+
+ .login-page input[type="submit"]
+ {
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: rgb(25, 0, 255);
+    font-size: 18px;
+    border-radius: 10px;
+    color: rgb(254, 253, 253);
+ }
+
+ .login-page input[type="submit"]:hover
+{
+    cursor: pointer;
+    background-color: rgb(252, 3, 3);
+    color: aliceblue;
+}
+
+.login-page a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 2;
+    color: black;
+}
+
+.login-page a:hover{
+    color: rgb(24, 53, 181);
+}
